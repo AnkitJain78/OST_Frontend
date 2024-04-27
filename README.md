@@ -69,7 +69,6 @@ OST Frontend is a React.js project that provides a user-friendly interface for u
 - React.js: JavaScript library for building user interfaces.
 - Axios: Promise-based HTTP client for making API requests.
 - Backend Application: Django backend application for parsing resumes and sending emails.
-- Nodemailer: Node.js module for sending emails.
 
 ## License
 
