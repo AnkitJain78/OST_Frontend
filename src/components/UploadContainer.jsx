@@ -75,6 +75,10 @@ const UploadContainer = () => {
       });
   };
   const uploadFile = () => {
+    if (files.length===0) {
+      toast.error("Please browse files first!")
+      return
+    }
     setLoading(true);
     setIsUpLoading(true);
     let formData = new FormData();
